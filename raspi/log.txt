@@ -1,0 +1,22 @@
+Python 2.7.9 (default, Mar  8 2015, 00:52:26) 
+[GCC 4.9.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import smbus
+>>> bus = smbus.SMBus(1)
+>>> adr = 0x38
+>>> bus.read_byte_data(adr,0x00)
+0
+>>> bus.read_byte_data(adr,0x01)
+255
+>>> bus.write_byte_data(adr,0x01,0x00)
+>>> bus.read_byte_data(adr,0x01)
+0
+>>> bus.write_byte_data(adr,0x00,0xAA)
+>>> bus.write_byte_data(adr,0x00,0x55)
+>>> bus.read_byte_data(adr,0x00)
+85
+>>> bus.write_byte_data(adr,0x00,0xAA)
+>>> bus.read_byte_data(adr,0x00)
+170
+>>> 
+
