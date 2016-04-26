@@ -72,7 +72,7 @@ begin
 		OUT_GPIO : GPIO(i) <= output_reg(i) when tristate_reg(i)='0' else 'Z';
 	end generate GENOUT;
 
-	DOUT <= gpio_qq;
+	DOUT <= gpio_qq when ADDR='0' else tristate_reg;
 
 end rtl;
 
