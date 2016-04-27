@@ -1,8 +1,8 @@
 --###############################
---# Project Name : 
---# File         : 
---# Project      : 
---# Engineer     : 
+--# Project Name : i2cgpio
+--# File         : i2cgpio32.vhd
+--# Project      : i2c utilities
+--# Engineer     : Philippe THIRION
 --# Modification History
 --###############################
 
