@@ -1,8 +1,8 @@
 --###############################
---# Project Name : 
---# File         : 
---# Project      : 
---# Engineer     : 
+--# Project Name : i2cgpio
+--# File         : gpio8.vhd
+--# Project      : i2c utilities ( 8 bit gpio )
+--# Engineer     : Philippe THIRION
 --# Modification History
 --###############################
 
