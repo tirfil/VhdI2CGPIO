@@ -13,6 +13,13 @@ Mockup
 
 Using an ALTERA MAX II CPLD (EPM240)
 
+| # GPIO | Size(LE) | Note                        |
+|--------|----------|-----------------------------|
+| 8      | ~160     | mockup project              |
+| 32     | ~260     | doesn't fit in a EPM240     |
+
 See raspi and altera directories
 
 ![mockup board](https://github.com/tirfil/VhdI2CGPIO/blob/master/images/board.JPG)
+
+
